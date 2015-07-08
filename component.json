@@ -1,0 +1,22 @@
+{
+  "name": "S",
+  "repository": "http://github.com/polyvitamins/polyscope",
+  "description": "Suit-function",
+  "version": "0.0.1",
+  "keywords": ["suit"],
+  "main": [
+    "dist/init.js"
+  ],
+  "dependencies": {
+   },
+  "scripts": [
+    "src/init.js"
+  ],
+  "license": "MIT",
+  "remotes": [
+    "github"
+  ],
+  "tags": [
+    "global","amd"
+  ]
+}
