@@ -15,5 +15,8 @@
   ],
   "tags": [
     "global","amd"
+  ],
+  "files": [
+    "src/*"
   ]
 }
