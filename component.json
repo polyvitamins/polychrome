@@ -4,9 +4,6 @@
   "description": "Suit-function",
   "version": "0.0.1",
   "keywords": ["suit"],
-  "main": [
-    "dist/init.js"
-  ],
   "dependencies": {
    },
   "scripts": [
