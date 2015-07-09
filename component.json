@@ -17,6 +17,6 @@
     "global","amd"
   ],
   "files": [
-    "src/*"
+    "src/suit.js"
   ]
 }
