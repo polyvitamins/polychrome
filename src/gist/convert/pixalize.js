@@ -7,14 +7,15 @@ define(function() {
 	return function(value, quantity) {
 		if ("string" == typeof value) {
 			if (value.substr(-1)==='%') {
+				console.log((quantity/100), '*', (value.substring(0, value.length-1)));
 				return ((quantity/100)* (value.substring(0, value.length-1)));
 			} else {
-				return parseInt(value.split('px').join(''));
+				return parseFloat(value.split('px').join(''));
 			}
 		} else {
 			return value;
 		}
 		
-		return parseInt(value);
+		return parseFloat(value);
 	};
 });
