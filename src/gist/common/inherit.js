@@ -88,7 +88,7 @@ define(['./mixin.js'], function(mixin) {
 			Мы выполняем расширенные функции только если мы являемся экземпляром Mixin
 			*/			
 			
-			if (!(this instanceof Window)) {
+			if (!(this===window)) {
 				superconstructor.apply(this, args)
 			}
 
